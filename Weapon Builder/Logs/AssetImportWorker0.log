@@ -1,0 +1,476 @@
+Using pre-set license
+Built from '2020.3/release' branch; Version is '2020.3.7f1 (dd97f2c94397) revision 14522354'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19042.985; Version 2009; 64bit' Language: 'en' Physical Memory: 16331 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+F:\Unity\2020.3.7f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Coding/Unity/Unity-Weapon-Builder/Weapon Builder
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50802
+Successfully changed project path to: D:/Coding/Unity/Unity-Weapon-Builder/Weapon Builder
+D:/Coding/Unity/Unity-Weapon-Builder/Weapon Builder
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 112.70 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.7f1 (dd97f2c94397)
+[Subsystems] Discovering subsystems at path F:/Unity/2020.3.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Coding/Unity/Unity-Weapon-Builder/Weapon Builder/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1080 (ID=0x1b80)
+    Vendor:   
+    VRAM:     8079 MB
+    Driver:   27.21.14.6663
+Initialize mono
+Mono path[0] = 'F:/Unity/2020.3.7f1/Editor/Data/Managed'
+Mono path[1] = 'F:/Unity/2020.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'F:/Unity/2020.3.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56672
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: F:/Unity/2020.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001079 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 127.75 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.005 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001474 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.10 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.816 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.19 seconds
+Refreshing native plugins compatible for Editor in 1.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1116 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 66.8 MB.
+System memory in use after: 66.9 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1557.
+Total: 1.556800 ms (FindLiveObjects: 0.134900 ms CreateObjectMapping: 0.026200 ms MarkObjects: 1.320500 ms  DeleteObjects: 0.074300 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scenes/Main.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18196bc1bcfbc2bfbde86765e62f4abf') in 0.014915 seconds
+  Import took 0.017667 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2020.162079 seconds.
+  path: Assets/Assets/BattleStateGames/implemented
+  artifactKey: Guid(2ed6839e54e2af643a085ed7efe0d49d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BattleStateGames/implemented using Guid(2ed6839e54e2af643a085ed7efe0d49d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd0d31e4073ac6dfd7f362ba0946d0bd') in 0.007925 seconds
+  Import took 0.010714 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.855508 seconds.
+  path: Assets/Assets/BattleStateGames/weapons/mp7
+  artifactKey: Guid(7a0d90de100df7d44b27aefcd2c9ca1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BattleStateGames/weapons/mp7 using Guid(7a0d90de100df7d44b27aefcd2c9ca1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc2c687ef0fd0e6f766615af85fd3059') in 0.007637 seconds
+  Import took 0.010386 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.126551 seconds.
+  path: Assets/Assets/BattleStateGames/weapons/mp7/mp7a1_bolt_carrier_LOD0.obj
+  artifactKey: Guid(da1dc8c3094784649b57e73b0d3f699c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BattleStateGames/weapons/mp7/mp7a1_bolt_carrier_LOD0.obj using Guid(da1dc8c3094784649b57e73b0d3f699c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed8b98282c47d0af59d3fee253fcce87') in 0.654781 seconds
+  Import took 0.657404 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Assets/BattleStateGames/weapons/mp7/stock_mp7_hk_a2_std_LOD0 #194.obj
+  artifactKey: Guid(8f7060701736a8c429712c7f270f555b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BattleStateGames/weapons/mp7/stock_mp7_hk_a2_std_LOD0 #194.obj using Guid(8f7060701736a8c429712c7f270f555b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a45a3a664096b37c6b67b7c463cbefb3') in 0.038589 seconds
+  Import took 0.041506 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Assets/BattleStateGames/weapons/mp7/mp7a1_charging_handle_LOD0.obj
+  artifactKey: Guid(2ac0b2b506f69ed479fe77faf6ccdd4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BattleStateGames/weapons/mp7/mp7a1_charging_handle_LOD0.obj using Guid(2ac0b2b506f69ed479fe77faf6ccdd4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '876819f0d4397b73169462d671d42926') in 0.041350 seconds
+  Import took 0.044091 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Assets/BattleStateGames/weapons/mp7/mp7a1_folding_handle_LOD0.obj
+  artifactKey: Guid(b579eec86cab8a845853d60ecfd4d30a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BattleStateGames/weapons/mp7/mp7a1_folding_handle_LOD0.obj using Guid(b579eec86cab8a845853d60ecfd4d30a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24412db6b0d9f1ed9ae7101cf13d03d2') in 0.037699 seconds
+  Import took 0.040830 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Assets/BattleStateGames/weapons/mp7/mp7a1_rails_std_b_LOD0.obj
+  artifactKey: Guid(7436874a6dbfc594d9d0b9272068dbb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BattleStateGames/weapons/mp7/mp7a1_rails_std_b_LOD0.obj using Guid(7436874a6dbfc594d9d0b9272068dbb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b0664299e95ca2c4ba4bf2c447b7c0a') in 0.032038 seconds
+  Import took 0.034795 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Assets/BattleStateGames/weapons/mp7/mp7a1_bolt_LOD0.obj
+  artifactKey: Guid(dc959812ec8ac1c4fa7b332909fe4900) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BattleStateGames/weapons/mp7/mp7a1_bolt_LOD0.obj using Guid(dc959812ec8ac1c4fa7b332909fe4900) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b45d741465c7bc9bb920efab3495065') in 0.033407 seconds
+  Import took 0.035794 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Assets/BattleStateGames/weapons/mp7/mp7a2_bolt_catch_LOD0.obj
+  artifactKey: Guid(bb9522bee0e63164197f0aead0db495b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BattleStateGames/weapons/mp7/mp7a2_bolt_catch_LOD0.obj using Guid(bb9522bee0e63164197f0aead0db495b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f779b4e9611ffc881d14a74bcce761a') in 0.031003 seconds
+  Import took 0.033702 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Assets/BattleStateGames/weapons/mp7/mp7a2_rails_navy_LOD0.obj
+  artifactKey: Guid(5bac3f9c68a25944ca75dbe51ed03f1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BattleStateGames/weapons/mp7/mp7a2_rails_navy_LOD0.obj using Guid(5bac3f9c68a25944ca75dbe51ed03f1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb9c3a7c72198e5b6d65a002f2766355') in 0.031232 seconds
+  Import took 0.033719 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Assets/BattleStateGames/weapons/mp7/mp7a2_stock_lock_LOD0 #573.obj
+  artifactKey: Guid(aba30e7ad7099da498047a6bd480337f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BattleStateGames/weapons/mp7/mp7a2_stock_lock_LOD0 #573.obj using Guid(aba30e7ad7099da498047a6bd480337f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cdd0bf17969bb080a182c05f0815f40') in 0.026980 seconds
+  Import took 0.029421 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Assets/BattleStateGames/weapons/mp7/mp7a2_release_LOD0.obj
+  artifactKey: Guid(90ffea511d81e5149b022561a060095b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BattleStateGames/weapons/mp7/mp7a2_release_LOD0.obj using Guid(90ffea511d81e5149b022561a060095b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16061a3353bff49b6f1a3e0af29b22ef') in 0.037852 seconds
+  Import took 0.040180 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Assets/BattleStateGames/weapons/mp7/weapon_hk_mp7a2_46x30_LOD0.obj
+  artifactKey: Guid(a8ca467eff13a11419aaa668dc550d44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BattleStateGames/weapons/mp7/weapon_hk_mp7a2_46x30_LOD0.obj using Guid(a8ca467eff13a11419aaa668dc550d44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fceefb59916ff97fb035a2a25554daae') in 0.043174 seconds
+  Import took 0.045597 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Assets/BattleStateGames/weapons/mp7/mp7a2_catch_release_LOD0.obj
+  artifactKey: Guid(94971419dd0999a469699be7e9708587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BattleStateGames/weapons/mp7/mp7a2_catch_release_LOD0.obj using Guid(94971419dd0999a469699be7e9708587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8a81f6535a62146efd37d8349e096a4') in 0.029123 seconds
+  Import took 0.031587 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/Assets/BattleStateGames/weapons/mp7/mp7a2_stock_lock_LOD0.obj
+  artifactKey: Guid(7f696d7999da36642bd6c24cf959f594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BattleStateGames/weapons/mp7/mp7a2_stock_lock_LOD0.obj using Guid(7f696d7999da36642bd6c24cf959f594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85a49ec203a9e14f21b605fd9efec42c') in 0.032209 seconds
+  Import took 0.034561 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Assets/BattleStateGames/weapons/mp7/mp7a2_stock_release_LOD0.obj
+  artifactKey: Guid(c255e966c0e5ddf4bad8a4199f31f36d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BattleStateGames/weapons/mp7/mp7a2_stock_release_LOD0.obj using Guid(c255e966c0e5ddf4bad8a4199f31f36d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7993c51937d1b90e1b32d581032762ed') in 0.035259 seconds
+  Import took 0.037705 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Assets/BattleStateGames/weapons/mp7/mp7a2_trigger_LOD0.obj
+  artifactKey: Guid(f18a2648a08f79340b596403d76d9b5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BattleStateGames/weapons/mp7/mp7a2_trigger_LOD0.obj using Guid(f18a2648a08f79340b596403d76d9b5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26ea4888f00878b2eec8506578159e8e') in 0.031661 seconds
+  Import took 0.039801 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Assets/BattleStateGames/weapons/mp7/mp7a1_stock_release_LOD0 #321.obj
+  artifactKey: Guid(c500de74450324d4da17e03d7bfdbdb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BattleStateGames/weapons/mp7/mp7a1_stock_release_LOD0 #321.obj using Guid(c500de74450324d4da17e03d7bfdbdb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caac97a36e8e020c22df1f2bddb0053d') in 0.027502 seconds
+  Import took 0.030179 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Assets/BattleStateGames/weapons/mp7/stock_mp7_hk_a1_std_LOD0 #405.obj
+  artifactKey: Guid(cfb6f74bae92f414f944cd4e4ef23797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BattleStateGames/weapons/mp7/stock_mp7_hk_a1_std_LOD0 #405.obj using Guid(cfb6f74bae92f414f944cd4e4ef23797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9744a31adb302ded8f849152677f83e8') in 0.034358 seconds
+  Import took 0.036896 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Assets/BattleStateGames/weapons/mp7/mp7a1_catch_release_LOD0.obj
+  artifactKey: Guid(1622eab6d98005d43a61e0692c71cddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BattleStateGames/weapons/mp7/mp7a1_catch_release_LOD0.obj using Guid(1622eab6d98005d43a61e0692c71cddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05f052193deaa0d2861dd2583d4bb0ac') in 0.033423 seconds
+  Import took 0.042060 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Assets/BattleStateGames/weapons/mp7/mp7a1_folding_handle_lock_LOD0.obj
+  artifactKey: Guid(11c18b469c50cc74da05768835dd83cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BattleStateGames/weapons/mp7/mp7a1_folding_handle_lock_LOD0.obj using Guid(11c18b469c50cc74da05768835dd83cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5afdf23198f085fbbcb4804f54c5452') in 0.032333 seconds
+  Import took 0.034602 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/Assets/BattleStateGames/weapons/mp7/stock_mp7_hk_a2_std_LOD0.obj
+  artifactKey: Guid(10f64a9f45b210a40a0e6dfe31564f2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BattleStateGames/weapons/mp7/stock_mp7_hk_a2_std_LOD0.obj using Guid(10f64a9f45b210a40a0e6dfe31564f2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37c2901a2c9ce746478c8d1b5ba432e7') in 0.031696 seconds
+  Import took 0.034013 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Assets/BattleStateGames/weapons/mp7/mp7a1_stock_LOD0 #529.obj
+  artifactKey: Guid(0ea46477f0f229d4f98ad16b5168d9d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BattleStateGames/weapons/mp7/mp7a1_stock_LOD0 #529.obj using Guid(0ea46477f0f229d4f98ad16b5168d9d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2259f549c9e46ccbd5e188b7910fe8e0') in 0.035817 seconds
+  Import took 0.038176 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/Assets/BattleStateGames/weapons/mp7/mp7a1_release_LOD0.obj
+  artifactKey: Guid(429d9afaa030ec24fb7653b6513b2b78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BattleStateGames/weapons/mp7/mp7a1_release_LOD0.obj using Guid(429d9afaa030ec24fb7653b6513b2b78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6769d6ebe48f2a95779e3e57e8b091d') in 0.031372 seconds
+  Import took 0.037717 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Assets/BattleStateGames/weapons/mp7/mp7a1_stock_LOD0.obj
+  artifactKey: Guid(f034f1d9b36893c47a69c1970162b575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BattleStateGames/weapons/mp7/mp7a1_stock_LOD0.obj using Guid(f034f1d9b36893c47a69c1970162b575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad893f4e86f0dad33536dee5fb201b34') in 0.031749 seconds
+  Import took 0.034423 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Assets/BattleStateGames/weapons/mp7/mp7a2_selector_LOD0.obj
+  artifactKey: Guid(dfecba7abfee0744da1e9bb8968e5ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BattleStateGames/weapons/mp7/mp7a2_selector_LOD0.obj using Guid(dfecba7abfee0744da1e9bb8968e5ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fec7533aa3caa70aa6230a9609db5728') in 0.028953 seconds
+  Import took 0.031498 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Assets/BattleStateGames/weapons/mp7/mp7a2_stock_LOD0.obj
+  artifactKey: Guid(289b1d0681e1cc846a93ccbd84f358d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BattleStateGames/weapons/mp7/mp7a2_stock_LOD0.obj using Guid(289b1d0681e1cc846a93ccbd84f358d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bc267b49570a492fa9d5321887df23f') in 0.033705 seconds
+  Import took 0.036173 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Assets/BattleStateGames/weapons/mp7/mp7a2_bolt_carrier_LOD0.obj
+  artifactKey: Guid(2431edf6ddfa6bb46b2cafbcf1d2c58c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BattleStateGames/weapons/mp7/mp7a2_bolt_carrier_LOD0.obj using Guid(2431edf6ddfa6bb46b2cafbcf1d2c58c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e880b82f0250998abe67fe6b3a94557f') in 0.030825 seconds
+  Import took 0.033407 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Assets/BattleStateGames/weapons/mp7/mp7a2_stock_LOD0 #210.obj
+  artifactKey: Guid(623eb02b6c4318b44b0551915e97fdfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BattleStateGames/weapons/mp7/mp7a2_stock_LOD0 #210.obj using Guid(623eb02b6c4318b44b0551915e97fdfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a256d9a44c6d0e66bdf0a4d35ce1b3d5') in 0.030426 seconds
+  Import took 0.032794 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Assets/BattleStateGames/weapons/mp7/mp7a2_bolt_LOD0.obj
+  artifactKey: Guid(886e3acdb4908464faaf89a4f1d7fd91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BattleStateGames/weapons/mp7/mp7a2_bolt_LOD0.obj using Guid(886e3acdb4908464faaf89a4f1d7fd91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ef88d1db49769c30a5c5e91ed148d94') in 0.030974 seconds
+  Import took 0.039780 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Assets/BattleStateGames/weapons/mp7/mp7a2_trigger_guard_LOD0.obj
+  artifactKey: Guid(41ed0a732af0028449d2168610222d99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BattleStateGames/weapons/mp7/mp7a2_trigger_guard_LOD0.obj using Guid(41ed0a732af0028449d2168610222d99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fee5e236c435eea21e53db93b423184') in 0.029804 seconds
+  Import took 0.032151 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Assets/BattleStateGames/weapons/mp7/mp7a1_trigger_LOD0.obj
+  artifactKey: Guid(f9296c7117f208542b61f561eafc7151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BattleStateGames/weapons/mp7/mp7a1_trigger_LOD0.obj using Guid(f9296c7117f208542b61f561eafc7151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee222a7a3ee90e27b3357a61ab799c2c') in 0.030998 seconds
+  Import took 0.033401 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Assets/BattleStateGames/weapons/mp7/mp7a2_charging_handle_LOD0.obj
+  artifactKey: Guid(6591980d79c74d74ab558d8fceb60625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BattleStateGames/weapons/mp7/mp7a2_charging_handle_LOD0.obj using Guid(6591980d79c74d74ab558d8fceb60625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '578de1fda0e95ce74d32b2ef8c743c92') in 0.034810 seconds
+  Import took 0.037052 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Assets/BattleStateGames/weapons/mp7/mp7a1_bolt_catch_LOD0.obj
+  artifactKey: Guid(bfe9f944e432c4e4e8fc41e47970f0c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BattleStateGames/weapons/mp7/mp7a1_bolt_catch_LOD0.obj using Guid(bfe9f944e432c4e4e8fc41e47970f0c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d9c5ff81182198648d3ae26bae2adec') in 0.030317 seconds
+  Import took 0.037438 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Assets/BattleStateGames/weapons/mp7/stock_mp7_hk_a1_std_LOD0.obj
+  artifactKey: Guid(f92bf60265569c74a9e1ee6c6e7480cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BattleStateGames/weapons/mp7/stock_mp7_hk_a1_std_LOD0.obj using Guid(f92bf60265569c74a9e1ee6c6e7480cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b39fec56ad925f8f31c518d3ae54d2aa') in 0.031147 seconds
+  Import took 0.033589 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Assets/BattleStateGames/weapons/mp7/mp7a1_stock_release_LOD0.obj
+  artifactKey: Guid(a5c6cf1a4a9c3954398948aa2ef69ad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BattleStateGames/weapons/mp7/mp7a1_stock_release_LOD0.obj using Guid(a5c6cf1a4a9c3954398948aa2ef69ad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '152e0cd585ba25188c915e62b04e2b1d') in 0.034383 seconds
+  Import took 0.037074 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Assets/BattleStateGames/weapons/mp7/mp7a2_stock_release_LOD0 #590.obj
+  artifactKey: Guid(a8865e9765d456c4abe2b40b51c83201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BattleStateGames/weapons/mp7/mp7a2_stock_release_LOD0 #590.obj using Guid(a8865e9765d456c4abe2b40b51c83201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db6c8feccecc8391c5ba83ab3adcb46f') in 0.034766 seconds
+  Import took 0.037172 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Assets/BattleStateGames/weapons/mp7/mp7a1_stock_lock_LOD0 #541.obj
+  artifactKey: Guid(9683c1b207735f64b84a9a7f06f74a6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BattleStateGames/weapons/mp7/mp7a1_stock_lock_LOD0 #541.obj using Guid(9683c1b207735f64b84a9a7f06f74a6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3e6cb6680f0deeb9fe015194fb81d9d') in 0.030123 seconds
+  Import took 0.032477 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Assets/BattleStateGames/weapons/mp7/mp7a1_trigger_guard_LOD0.obj
+  artifactKey: Guid(03bcbc16d16c42c4c857f05549e78120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BattleStateGames/weapons/mp7/mp7a1_trigger_guard_LOD0.obj using Guid(03bcbc16d16c42c4c857f05549e78120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e635d5ae833c82b94db8319b1609cca') in 0.037629 seconds
+  Import took 0.040036 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Assets/BattleStateGames/weapons/mp7/mp7a1_stock_lock_LOD0.obj
+  artifactKey: Guid(19093b2edbeadca4ebcc9cac1c75c8f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BattleStateGames/weapons/mp7/mp7a1_stock_lock_LOD0.obj using Guid(19093b2edbeadca4ebcc9cac1c75c8f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '555402ca7c8bb671c20437e286c9a72d') in 0.029687 seconds
+  Import took 0.036594 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/Assets/BattleStateGames/weapons/mp7/mp7a1_rails_std_LOD0.obj
+  artifactKey: Guid(d5d60d30c6d508142bc86a161b33a85f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BattleStateGames/weapons/mp7/mp7a1_rails_std_LOD0.obj using Guid(d5d60d30c6d508142bc86a161b33a85f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfa18c4c9b7b0cba54158d1ebf603e20') in 0.034331 seconds
+  Import took 0.036775 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Assets/BattleStateGames/weapons/mp7/weapon_hk_mp7a1_46x30_LOD0.obj
+  artifactKey: Guid(c5aaa3c3c42756843a895d2a6e09ff0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BattleStateGames/weapons/mp7/weapon_hk_mp7a1_46x30_LOD0.obj using Guid(c5aaa3c3c42756843a895d2a6e09ff0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3db1223bcc1610b576629bf14ea53458') in 0.036526 seconds
+  Import took 0.039004 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/Assets/BattleStateGames/weapons/mp7/mp7a1_selector_LOD0.obj
+  artifactKey: Guid(32400ab32b7263d4996231b93ade65d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BattleStateGames/weapons/mp7/mp7a1_selector_LOD0.obj using Guid(32400ab32b7263d4996231b93ade65d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96f6fdb0181cda77456e46db3bd0f844') in 0.032633 seconds
+  Import took 0.035047 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 35.056594 seconds.
+  path: Assets/Assets/BattleStateGames/weapons/m4a1/weapon_zid_sp81_26x75_LOD1_diff.png
+  artifactKey: Guid(a1e1632ed21136e4bb83a7d7c73c49cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BattleStateGames/weapons/m4a1/weapon_zid_sp81_26x75_LOD1_diff.png using Guid(a1e1632ed21136e4bb83a7d7c73c49cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad014f517b255ee783c765bf1f5ec8ec') in 0.152141 seconds
+  Import took 0.155215 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006246 seconds.
+  path: Assets/Assets/BattleStateGames/weapons/m4a1/weapon_zid_sp81_26x75_LOD1_diff.png
+  artifactKey: Guid(a1e1632ed21136e4bb83a7d7c73c49cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BattleStateGames/weapons/m4a1/weapon_zid_sp81_26x75_LOD1_diff.png using Guid(a1e1632ed21136e4bb83a7d7c73c49cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad014f517b255ee783c765bf1f5ec8ec') in 0.009222 seconds
+  Import took 0.012329 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 208.317864 seconds.
+  path: Assets/Assets/BattleStateGames/weapons/m4a1/vss
+  artifactKey: Guid(0aad80cadb098b04db7cbe7d23fd48f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BattleStateGames/weapons/m4a1/vss using Guid(0aad80cadb098b04db7cbe7d23fd48f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c651ea9b1ff9ce270863f30801d16fa') in 0.006458 seconds
+  Import took 0.021394 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.387586 seconds.
+  path: Assets/Assets/BattleStateGames/weapons/m4a1/mosin
+  artifactKey: Guid(08e9dee3c4e87d0479ac995ffc61943f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BattleStateGames/weapons/m4a1/mosin using Guid(08e9dee3c4e87d0479ac995ffc61943f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cbc9b08662e5655aa3b19fb3e756cc4') in 0.006788 seconds
+  Import took 0.029399 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.916766 seconds.
+  path: Assets/Assets/BattleStateGames/weapons/adar_2-15/weapon_adar_2-15_556x45.fbx
+  artifactKey: Guid(bacbc135f4c7f3e448381a65daac042d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BattleStateGames/weapons/adar_2-15/weapon_adar_2-15_556x45.fbx using Guid(bacbc135f4c7f3e448381a65daac042d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c14fe90915e44c2436ee805b3d3531e6') in 0.238388 seconds
+  Import took 0.262743 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.199752 seconds.
+  path: Assets/Assets/BattleStateGames/weapons/m4a1/m1911a1
+  artifactKey: Guid(8c93f2c0e08a48441adef7f49de5c47c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BattleStateGames/weapons/m4a1/m1911a1 using Guid(8c93f2c0e08a48441adef7f49de5c47c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8275e5c2a72dcd5b34e06b7cb758263') in 0.006640 seconds
+  Import took 0.023344 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.484025 seconds.
+  path: Assets/Assets/BattleStateGames/weapons/m4a1/m4a1
+  artifactKey: Guid(9c1455413cc938d4da80a124e5190ce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BattleStateGames/weapons/m4a1/m4a1 using Guid(9c1455413cc938d4da80a124e5190ce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa362c3876a3026accfd8967c7a0790c') in 0.018980 seconds
+  Import took 0.037461 seconds .
+
