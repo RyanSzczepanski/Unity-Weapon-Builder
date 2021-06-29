@@ -36,15 +36,7 @@ public class Attachment : MonoBehaviour
             AttachmentSlot[] _validAttachments;
             if (FindValidAttachmentSlots(_attachmentBase, _attachmentAddition, out _validAttachments))
             {   //Found minimum 1 valid attachment slot
-                _attachmentAdditionGO.transform.SetParent(_validAttachments[0].attachmentSlotObj.transform);
-                _attachmentAdditionGO.transform.localPosition = Vector3.zero;
-                Instantiate(_attachmentAdditionGO, _validAttachments[0].attachmentSlotObj.transform);
-
-                foreach (AttachmentSlot _attach in _validAttachments)
-                {
-                    
-                    Debug.Log(_attach.attachmentSlotObj.name);
-                }
+                _validAttachments[0].attachmentInSlot = Instantiate(_attachmentAdditionGO, _validAttachments[0].attachmentSlotObj.transform);
             }
             else
             {   //No valid attachment slots found
