@@ -49,6 +49,7 @@ public class Attachment : MonoBehaviour
         }
     }
 
+    //UNUSED METHOD
     public static void AddAttachment(Attachment _attachment, AttachmentSlot _attachmentSlot)
     { 
         if (CheckValidAttachmentSlot(_attachment, _attachmentSlot))
