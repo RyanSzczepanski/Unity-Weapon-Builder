@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor;
 using UnityEngine.UI;
+using System;
 
 [System.Serializable]
 public class AttachmentSlot
@@ -25,6 +26,8 @@ public class Attachment : MonoBehaviour
     public AttachmentSlot[] attachmentSlots;
 
     public AttachmentStats weaponStats;
+
+
 
     public static void AddAttachment(GameObject _attachmentAdditionGO, GameObject _attachmentBaseGO)
     {
@@ -49,20 +52,6 @@ public class Attachment : MonoBehaviour
         }
     }
 
-    //UNUSED METHOD
-    public static void AddAttachment(Attachment _attachment, AttachmentSlot _attachmentSlot)
-    { 
-        if (CheckValidAttachmentSlot(_attachment, _attachmentSlot))
-        {   //Attachment Valid
-            //TODO: Create attachment and place on gun
-
-        }
-        else
-        {   //Attachment Invalid
-
-        }
-    }
-
     public static bool FindValidAttachmentSlots(Attachment _attachmentBase, Attachment _attachmentAddition, out AttachmentSlot[] _validAttachmentSlots)
     {
         List<AttachmentSlot> _validAttachmentSlotsList = new List<AttachmentSlot>();
@@ -81,6 +70,32 @@ public class Attachment : MonoBehaviour
         }
         _validAttachmentSlots = _validAttachmentSlotsList.ToArray();
         
+        if (_validAttachmentSlots.Length != 0)
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+    }
+
+    public static bool FindAllAttachmentSlots(Attachment _attachmentBase, out AttachmentSlot[] _validAttachmentSlots)
+    {
+        List<AttachmentSlot> _validAttachmentSlotsList = new List<AttachmentSlot>();
+        foreach (AttachmentSlot _slot in _attachmentBase.attachmentSlots)
+        {
+            _validAttachmentSlotsList.Add(_slot);
+
+            if (_slot.attachmentInSlot != null)
+            {   //If there is an attachment equiped check the attachments attachment slots
+                AttachmentSlot[] _attachmentSlotsSubArray;
+                FindAllAttachmentSlots(_slot.attachmentInSlot.GetComponent<Attachment>(), out _attachmentSlotsSubArray);
+                _validAttachmentSlotsList.AddRange(_attachmentSlotsSubArray);
+            }
+        }
+        _validAttachmentSlots = _validAttachmentSlotsList.ToArray();
+
         if (_validAttachmentSlots.Length != 0)
         {
             return true;
