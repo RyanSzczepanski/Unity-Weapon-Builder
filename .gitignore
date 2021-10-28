@@ -4,7 +4,6 @@
 [Aa]ssets/AssetStoreTools*
 [Bb]uild/
 [Ll]ibrary/
-[Ll]ogs/
 [Ll]ocal[Cc]ache/
 [Oo]bj/
 [Tt]emp/
@@ -27,7 +26,6 @@ sysinfo.txt
 *.user
 *.userprefs
 *.pidb
-*.log
 .DS_Store
 
 ###
@@ -41,4 +39,3 @@ sysinfo.txt
 Icon?
 ehthumbs.db
 Thumbs.db
-*.log
