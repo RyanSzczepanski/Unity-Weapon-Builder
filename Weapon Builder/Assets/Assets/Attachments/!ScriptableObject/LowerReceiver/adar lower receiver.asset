@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27fd3874c8dd5ca45a859679360cfd5b, type: 3}
+  m_Name: adar lower receiver
+  m_EditorClassIdentifier: 
+  attachmentPrefab: {fileID: 3071500115069608563, guid: 016d057bd07e77e4c9b9c9d8ce7d9dda,
+    type: 3}
+  attachmentType: 5
+  attachmentCaliber: 1
+  attachmentStart: 0
+  attachmentEnd: 0
+  attachmentStats:
+    ergonomics: 0
+    recoilVertical: 0
+    recoilHorizontal: 0
+    weight: 0
+  AttachmentSlots:
+  - attachmentType: 6
+    attachmentCaliber: 1
+    WhiteList: []
+    BlackList: []
+    attachmentPointOffset: {x: 0.09, y: 0.03, z: 0}
+    attachmentOffset: {x: 0, y: -0.02428, z: 0.4131}
+    railStart: 0
+    railEnd: 0
+    attachmentSlotObj: {fileID: 0}
+    attachmentInSlot: {fileID: 0}
+  - attachmentType: 9
+    attachmentCaliber: 1
+    WhiteList: []
+    BlackList: []
+    attachmentPointOffset: {x: 0.03, y: -0.06, z: 0}
+    attachmentOffset: {x: 0, y: -0.0168, z: 0.4041}
+    railStart: 0
+    railEnd: 0
+    attachmentSlotObj: {fileID: 0}
+    attachmentInSlot: {fileID: 0}
+  - attachmentType: 7
+    attachmentCaliber: 0
+    WhiteList: []
+    BlackList: []
+    attachmentPointOffset: {x: 0.015, y: -0.015, z: 0}
+    attachmentOffset: {x: 0, y: -0.0497, z: 0.2824}
+    railStart: 0
+    railEnd: 0
+    attachmentSlotObj: {fileID: 0}
+    attachmentInSlot: {fileID: 0}
+  - attachmentType: 8
+    attachmentCaliber: 0
+    WhiteList: []
+    BlackList: []
+    attachmentPointOffset: {x: -0.03, y: 0.03, z: 0}
+    attachmentOffset: {x: 0, y: -0.0303, z: 0.1291}
+    railStart: 0
+    railEnd: 0
+    attachmentSlotObj: {fileID: 0}
+    attachmentInSlot: {fileID: 0}
